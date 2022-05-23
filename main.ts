@@ -5,7 +5,7 @@ PlanetX_AILens.initModule()
 PlanetX_AILens.switchfunc(PlanetX_AILens.FuncList.Card)
 basic.forever(function () {
     PlanetX_AILens.cameraImage()
-    if (PlanetX_AILens.cardTotalNum() == 1) {
+    if (PlanetX_AILens.cardTotalNum() == 3) {
         if (PlanetX_AILens.numberCard(PlanetX_AILens.numberCards.five)) {
             i = PlanetX_AILens.CardData(PlanetX_AILens.Cardstatus.ID)
         }
